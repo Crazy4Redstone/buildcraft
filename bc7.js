@@ -2,6 +2,17 @@
 
 // Made by Crazy4Redstone
 
+// Variables:
+
+var Start = 0
+var StartId = 450
+var Mined = 0
+
+// Items:
+
+// Wrench
+function ModPE.setItem (450,'name_tag',0,'Wrench')
+
 // Blocks:
 
 // Mining Well
@@ -35,6 +46,48 @@ Block.setDestroyTime (179,0.25)
 // Mining Well Pipe
 Block.defineBlock (180,'Mining Well Pipe',[['wool',14]],50,false,11)
 Block.setDestroyTime (180,0.25)
+
+// Functions:
+
+function useItem (x,y,z,i,b,s)
+{
+  if (b == 61 && getTile (x,y+1,z) == 245 && i == 450)
+  {
+    preventDefault ()
+    setTile (x,y,z,174)
+    setTile (x,y+1,z,0)
+  }
+  if (b == 58 && getTile (x,y+1,z) == 245 && i == 450)
+  {
+    preventDefault ()
+    setTile (x,y,z,175)
+    setTile (x,y,z,0)
+  }
+  if (b == 245 && getTile (x,y+1,z) == 4 && i == 450)
+  {
+    preventDefault ()
+    setTile (x,y,z,176)
+    setTile (x,y+1,z,0)
+  }
+  if (b == 173 && getTile (x,y+1,z) == 173 && i == 450)
+  {
+    preventDefault ()
+    setTile (x,y,z,177)
+    setTile (x,y+1,z,0)
+  }
+  if (b == 5 && getTile (x,y+1,z) == 5 && i == 450)
+  {
+    preventDefault ()
+    setTile (x,y,z,178)
+    setTile (x,y+1,z,0)
+  }
+  if (b == 4 && getTile (x,y+1,z) == 4 && i == 450)
+  {
+    preventDefault ()
+    setTile (x,y,z,179)
+    setTile (x,y+1,z,0)
+  }
+}  
 
 // Commands:
 
