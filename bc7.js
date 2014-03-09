@@ -11,7 +11,7 @@ var Mined = 0
 // Items:
 
 // Wrench
-function ModPE.setItem (450,'name_tag',0,'Wrench')
+function ModPE.setItem (450,[['name_tag',0]],'Wrench')
 
 // Blocks:
 
