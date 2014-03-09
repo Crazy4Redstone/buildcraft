@@ -11,7 +11,7 @@ var Mined = 0
 // Items:
 
 // Wrench
-ModPE.setItem (450,'destroy_stage_x',1,'Wrench')
+ModPE.setItem (450,'name_tag',0,'Wrench')
 
 // Blocks:
 
