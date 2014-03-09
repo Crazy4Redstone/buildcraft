@@ -61,7 +61,7 @@ function useItem (x,y,z,i,b,s)
   {
     preventDefault ()
     setTile (x,y,z,175)
-    setTile (x,y,z,0)
+    setTile (x,y+1,z,0)
   }
   if (b == 245 && getTile (x,y+1,z) == 4 && i == 450)
   {
