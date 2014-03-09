@@ -32,6 +32,10 @@ Block.setDestroyTime (178,0.25)
 Block.defineBlock (179,'Cobblestone Pipe',[['cobblestone',0]],50,true,11)
 Block.setDestroyTime (179,0.25)
 
+// Mining Well Pipe
+Block.defineBlock (180,'Mining Well Pipe',[['wool',14]],50,false,11)
+Block.setDestroyTime (180,0.25)
+
 // Commands:
 
 // Give
