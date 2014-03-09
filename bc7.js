@@ -15,7 +15,7 @@ Block.setShape (175,0,0,0,1,1,1)
 Block.setDestroyTime (175,0.25)
 
 // Builder
-Block.defineBlock (176,'Builder',[['stonecutter',3],['stonecutter',3],['stonecutter',0],['stonecutter',0],['stonecutter',0],['stonecutter',0],50,false,0)
+Block.defineBlock (176,'Builder',[['stonecutter',3],['stonecutter',3],['stonecutter',0],['stonecutter',0],['stonecutter',0],['stonecutter',0]],50,false,0)
 Block.setShape (176,0,0,0,1,1,1)
 Block.setDestroyTime (176,0.25)
 
